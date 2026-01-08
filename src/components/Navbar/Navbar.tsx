@@ -68,8 +68,8 @@ const Navbar = () => {
           className={styles["circle"]}
           initial={{ width: "3rem", height: "3rem" }}
           animate={{
-            width: isOpen ? "6.5rem" : "3rem",
-            height: isOpen ? "6.5rem" : "3rem",
+            width: isOpen ? "6.9rem" : "3rem",
+            height: isOpen ? "6.9rem" : "3rem",
           }}
           transition={{ duration: 0.6, ease: [0.7, 0, 0, 1] }}
         />
